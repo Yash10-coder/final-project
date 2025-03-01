@@ -19,8 +19,25 @@
         }
       },
       {
+        "src": "/login",
+        "dest": "app.py"
+      },
+      {
+        "src": "/signup",
+        "dest": "app.py"
+      },
+      {
+        "src": "/dashboard",
+        "dest": "app.py"
+      },
+      {
+        "src": "/home",
+        "dest": "app.py"
+      },
+      {
         "src": "/(.*)",
         "dest": "app.py"
       }
     ]
+
   }
